@@ -6,4 +6,8 @@ This repository contains a insurance smart contract that pays out based on a obs
 - [Disclaimer](#disclaimer)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Maintainer](#m
+- [Maintainer](#maintainer)
+- [License](#license)
+
+## Disclaimer
+This smart contract is for experimenal purposes and requires rigorous te

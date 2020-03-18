@@ -10,4 +10,11 @@ This repository contains a insurance smart contract that pays out based on a obs
 - [License](#license)
 
 ## Disclaimer
-This smart contract is for experimenal purposes and requires rigorous te
+This smart contract is for experimenal purposes and requires rigorous testing before deployment on the Main Net.
+
+## Installation
+
+### Dependencies
+
+1. Install GIT 
+[GIT install

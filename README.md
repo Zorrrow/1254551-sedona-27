@@ -17,4 +17,7 @@ This smart contract is for experimenal purposes and requires rigorous testing be
 ### Dependencies
 
 1. Install GIT 
-[GIT install
+[GIT installation guide] (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+2. Install Docker CE
+[Docker CE i

@@ -20,4 +20,9 @@ This smart contract is for experimenal purposes and requires rigorous testing be
 [GIT installation guide] (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 2. Install Docker CE
-[Docker CE i
+[Docker CE installation guide] (https://docs.docker.com/engine/installation/)
+
+3. To use Docker without sudo
+
+``` bash
+# Add your us

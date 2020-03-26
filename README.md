@@ -28,4 +28,9 @@ This smart contract is for experimenal purposes and requires rigorous testing be
 # Add your username to the Docker group
 sudo usermod -aG docker $USER
 
-# Logout and login again for this to ta
+# Logout and login again for this to take effect
+logout
+ ```
+
+## Usage
+To deploy the smart contract, it first needs to be set to the correct OWNER, 

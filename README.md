@@ -25,4 +25,7 @@ This smart contract is for experimenal purposes and requires rigorous testing be
 3. To use Docker without sudo
 
 ``` bash
-# Add your us
+# Add your username to the Docker group
+sudo usermod -aG docker $USER
+
+# Logout and login again for this to ta

@@ -33,4 +33,8 @@ logout
  ```
 
 ## Usage
-To deploy the smart contract, it first needs to be set to the correct OWNER, which is a byte array of your hex script hash. Having done so, the script can be compiled with pip neo
+To deploy the smart contract, it first needs to be set to the correct OWNER, which is a byte array of your hex script hash. Having done so, the script can be compiled with pip neo-boa and deployed with the neo-python container.
+
+Having Docker installed, you could do it like this:
+
+``

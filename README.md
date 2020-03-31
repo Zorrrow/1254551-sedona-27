@@ -41,4 +41,8 @@ Having Docker installed, you could do it like this:
 # Clone the git repository
 git clone https://github.com/JorritvandenBerg/sunny-dapp.git
 
-# Go to t
+# Go to the sunny_dapp directory
+cd sunny-dapp
+
+# Build the neo-boa docker-container
+docker build -t neo-boa .

@@ -37,4 +37,8 @@ To deploy the smart contract, it first needs to be set to the correct OWNER, whi
 
 Having Docker installed, you could do it like this:
 
-``
+``` bash
+# Clone the git repository
+git clone https://github.com/JorritvandenBerg/sunny-dapp.git
+
+# Go to t

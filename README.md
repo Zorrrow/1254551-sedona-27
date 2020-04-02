@@ -45,4 +45,7 @@ git clone https://github.com/JorritvandenBerg/sunny-dapp.git
 cd sunny-dapp
 
 # Build the neo-boa docker-container
-docker build -t neo-boa .
+docker build -t neo-boa ./neo-boa
+
+# Compile the sunny_dapp.py smart contract in the smartcontract directory
+docker run -it -v /absolute/p

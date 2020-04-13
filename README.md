@@ -51,4 +51,10 @@ docker build -t neo-boa ./neo-boa
 docker run -it -v /absolute/path/to/sunny_dapp/smartcontract:/python-contracts -v /absolute/path/to/sunny_dapp/smartcontract/compiled:/compiled-contracts neo-boa
 
 # Check if there is a compiled .avm file in the smartcontract subdirectory
-cd sm
+cd smartcontract
+
+# Go back to the main directory
+cd ..
+
+# Build the neo-python docker container
+docker build -

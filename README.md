@@ -60,4 +60,9 @@ cd ..
 docker build -t neo-python ./neo-python
 
 # Run the neo-python Docker container
-docker run -it -v /absolute/path/t
+docker run -it -v /absolute/path/to/sunny_dap/smartcontract/compiled:/smartcontract neo-python
+
+# Create or import a wallet
+create wallet {/path}
+
+# Import

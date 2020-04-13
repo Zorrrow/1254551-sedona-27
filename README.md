@@ -57,4 +57,7 @@ cd smartcontract
 cd ..
 
 # Build the neo-python docker container
-docker build -
+docker build -t neo-python ./neo-python
+
+# Run the neo-python Docker container
+docker run -it -v /absolute/path/t

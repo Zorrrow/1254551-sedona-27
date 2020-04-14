@@ -65,4 +65,8 @@ docker run -it -v /absolute/path/to/sunny_dap/smartcontract/compiled:/smartcontr
 # Create or import a wallet
 create wallet {/path}
 
-# Import
+# Import WIF of your OWNER address
+import wif {wif}
+
+# Import the contract (with storage enabled)
+import co

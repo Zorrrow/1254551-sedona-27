@@ -69,4 +69,6 @@ create wallet {/path}
 import wif {wif}
 
 # Import the contract (with storage enabled)
-import co
+import contract /smartcontract/sunny_dapp.avm 0710 05 True
+
+# Fill in the metadata form and optionally deploy w

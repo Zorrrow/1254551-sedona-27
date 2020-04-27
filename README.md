@@ -71,4 +71,6 @@ import wif {wif}
 # Import the contract (with storage enabled)
 import contract /smartcontract/sunny_dapp.avm 0710 05 True
 
-# Fill in the metadata form and optionally deploy w
+# Fill in the metadata form and optionally deploy with your wallet password after a succesful test invoke
+
+# Wait a few minutes for deployment and grab the contra

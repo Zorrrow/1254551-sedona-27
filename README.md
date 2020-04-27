@@ -73,4 +73,11 @@ import contract /smartcontract/sunny_dapp.avm 0710 05 True
 
 # Fill in the metadata form and optionally deploy with your wallet password after a succesful test invoke
 
-# Wait a few minutes for deployment and grab the contra
+# Wait a few minutes for deployment and grab the contract hash with
+contract search <entered author name> 
+
+ ```
+
+## Maintainers
+
+[@JorritvandenBerg](mailto:jorrit_van_den_berg@ho

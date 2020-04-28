@@ -80,4 +80,11 @@ contract search <entered author name>
 
 ## Maintainers
 
-[@JorritvandenBerg](mailto:jorrit_van_den_berg@ho
+[@JorritvandenBerg](mailto:jorrit_van_den_berg@hotmail.com)
+
+## License
+
+[License](LICENSE)
+
+
+

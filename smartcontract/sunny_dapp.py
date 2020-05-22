@@ -11,4 +11,8 @@ The oracle signals the result of the event, after which the customer,
 insurer or owner can claim to pay out the insured amount/premium.
 The oracle will also be paid for its services/costs.
 
-In case the oracle fails to signal the result, the owner can refund bo
+In case the oracle fails to signal the result, the owner can refund both the
+customer and insurer with the 'refundAll' operation.
+
+"""
+from boa.blockchain.vm.Neo.Runtime import Log, Notif

@@ -15,4 +15,5 @@ In case the oracle fails to signal the result, the owner can refund both the
 customer and insurer with the 'refundAll' operation.
 
 """
-from boa.blockchain.vm.Neo.Runtime import Log, Notif
+from boa.blockchain.vm.Neo.Runtime import Log, Notify, GetTrigger, CheckWitness
+from boa.blockchain.vm.Neo.Blockchain import GetHeight, GetHeader

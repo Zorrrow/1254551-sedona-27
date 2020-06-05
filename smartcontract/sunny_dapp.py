@@ -20,4 +20,9 @@ from boa.blockchain.vm.Neo.Blockchain import GetHeight, GetHeader
 from boa.blockchain.vm.Neo.Action import RegisterAction
 from boa.blockchain.vm.Neo.TriggerType import Application, Verification
 from boa.blockchain.vm.Neo.Storage import GetContext, Get, Put, Delete
-from boa.code.
+from boa.code.builtins import list
+
+
+# -------------------------------------------
+# DAPP SETTINGS
+# ----------

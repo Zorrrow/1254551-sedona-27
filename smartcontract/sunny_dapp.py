@@ -27,4 +27,8 @@ from boa.code.builtins import list
 # DAPP SETTINGS
 # -------------------------------------------
 
-OWNER = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\
+OWNER = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+# Script hash of the token owner
+
+THRESHOLD = 50
+# Threshold of relative sunshine duration percent 

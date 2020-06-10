@@ -31,4 +31,8 @@ OWNER = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x
 # Script hash of the token owner
 
 THRESHOLD = 50
-# Threshold of relative sunshine duration percent 
+# Threshold of relative sunshine duration percent on a given day
+
+# -------------------------------------------
+# Events
+# -----------------

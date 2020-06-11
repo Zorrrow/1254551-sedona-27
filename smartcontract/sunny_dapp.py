@@ -35,4 +35,7 @@ THRESHOLD = 50
 
 # -------------------------------------------
 # Events
-# -----------------
+# -------------------------------------------
+
+DispatchAgreementEvent = RegisterAction('agreement', 'agreement_key')
+DispatchRes

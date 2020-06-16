@@ -38,4 +38,5 @@ THRESHOLD = 50
 # -------------------------------------------
 
 DispatchAgreementEvent = RegisterAction('agreement', 'agreement_key')
-DispatchRes
+DispatchResultNoticeEvent = RegisterAction('result-notice', 'agreement_key', 'weather_param', 'oracle_cost')
+Disp

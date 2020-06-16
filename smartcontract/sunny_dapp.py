@@ -40,4 +40,6 @@ THRESHOLD = 50
 DispatchAgreementEvent = RegisterAction('agreement', 'agreement_key')
 DispatchResultNoticeEvent = RegisterAction('result-notice', 'agreement_key', 'weather_param', 'oracle_cost')
 DispatchClaimEvent = RegisterAction('pay-out', 'agreement_key')
-DispatchTransferEvent = RegisterAction('tra
+DispatchTransferEvent = RegisterAction('transfer', 'from', 'to', 'amount')
+DispatchRefundAllEvent = RegisterAction('refund-all', 'agreement_key')
+DispatchDeleteAgreemen

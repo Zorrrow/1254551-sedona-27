@@ -42,4 +42,10 @@ DispatchResultNoticeEvent = RegisterAction('result-notice', 'agreement_key', 'we
 DispatchClaimEvent = RegisterAction('pay-out', 'agreement_key')
 DispatchTransferEvent = RegisterAction('transfer', 'from', 'to', 'amount')
 DispatchRefundAllEvent = RegisterAction('refund-all', 'agreement_key')
-DispatchDeleteAgreemen
+DispatchDeleteAgreementEvent = RegisterAction('delete', 'agreement_key')
+
+
+def Main(operation, args):
+
+    """
+    This is the ma

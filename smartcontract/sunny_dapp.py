@@ -48,4 +48,7 @@ DispatchDeleteAgreementEvent = RegisterAction('delete', 'agreement_key')
 def Main(operation, args):
 
     """
-    This is the ma
+    This is the main entry point for the dApp
+    :param operation: the operation to be performed
+    :type operation: str
+    :par

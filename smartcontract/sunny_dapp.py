@@ -51,4 +51,6 @@ def Main(operation, args):
     This is the main entry point for the dApp
     :param operation: the operation to be performed
     :type operation: str
-    :par
+    :param args: an optional list of arguments
+    :type args: list
+    :return: indicating the successful executi

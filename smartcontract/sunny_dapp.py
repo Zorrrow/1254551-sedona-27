@@ -72,4 +72,7 @@ def Main(operation, args):
 
     elif trigger == Application():
 
-        if operation
+        if operation == 'deploy':
+            if len(args) == 6:
+                dapp_name = args[0]
+                ora

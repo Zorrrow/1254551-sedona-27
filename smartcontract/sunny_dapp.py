@@ -53,4 +53,11 @@ def Main(operation, args):
     :type operation: str
     :param args: an optional list of arguments
     :type args: list
-    :return: indicating the successful executi
+    :return: indicating the successful execution of the dApp
+    :rtype: bool
+    """
+    trigger = GetTrigger()
+
+    if trigger == Verification():
+
+   

@@ -60,4 +60,8 @@ def Main(operation, args):
 
     if trigger == Verification():
 
-   
+        # if the script that sent this is the owner
+        # we allow the spend
+        is_owner = CheckWitness(OWNER)
+
+     

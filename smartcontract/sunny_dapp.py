@@ -64,4 +64,12 @@ def Main(operation, args):
         # we allow the spend
         is_owner = CheckWitness(OWNER)
 
-     
+        if is_owner:
+
+            return True
+
+        return False
+
+    elif trigger == Application():
+
+        if operation

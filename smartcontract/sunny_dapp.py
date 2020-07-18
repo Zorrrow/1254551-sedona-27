@@ -75,4 +75,7 @@ def Main(operation, args):
         if operation == 'deploy':
             if len(args) == 6:
                 dapp_name = args[0]
-                ora
+                oracle = args[1]
+                time_margin = args[2]
+                min_time = args[3]
+  

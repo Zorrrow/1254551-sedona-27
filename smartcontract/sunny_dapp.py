@@ -78,4 +78,6 @@ def Main(operation, args):
                 oracle = args[1]
                 time_margin = args[2]
                 min_time = args[3]
-  
+                max_time = args[4]
+                fee = args[5]
+                d = Deploy(dapp_name, oracle, time_margin

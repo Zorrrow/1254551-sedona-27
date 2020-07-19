@@ -80,4 +80,8 @@ def Main(operation, args):
                 min_time = args[3]
                 max_time = args[4]
                 fee = args[5]
-                d = Deploy(dapp_name, oracle, time_margin
+                d = Deploy(dapp_name, oracle, time_margin, min_time, max_time)
+
+                Log("Dapp deployed")
+                return d
+            else:

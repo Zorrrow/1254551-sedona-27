@@ -85,3 +85,8 @@ def Main(operation, args):
                 Log("Dapp deployed")
                 return d
             else:
+                return False
+
+        elif operation == 'name':
+            context = GetContext()
+        

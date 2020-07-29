@@ -89,4 +89,8 @@ def Main(operation, args):
 
         elif operation == 'name':
             context = GetContext()
-        
+            n = Get(context, 'dapp_name')
+            return n
+
+        elif operation == 'updateName':
+           

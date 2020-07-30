@@ -93,4 +93,7 @@ def Main(operation, args):
             return n
 
         elif operation == 'updateName':
-           
+            if len(args) == 1:
+                new_name = args[0]
+                n = UpdateName(new_name)
+                Log("

@@ -113,4 +113,9 @@ def Main(operation, args):
                 new_oracle = args[0]
                 o = UpdateOracle(new_oracle)
                 Log("Oracle updated")
-                re
+                return o
+
+            else:
+                return False
+
+        elif operation == 'time_margin':

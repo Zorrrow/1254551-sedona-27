@@ -102,4 +102,6 @@ def Main(operation, args):
             else:
                 return False
 
-        elif o
+        elif operation == 'oracle':
+            context = GetContext()
+            o = Get(context, 

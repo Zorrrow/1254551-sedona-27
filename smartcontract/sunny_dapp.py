@@ -122,4 +122,8 @@ def Main(operation, args):
             context = GetContext()
             time_margin = Get(context, 'time_margin')
 
-            retu
+            return time_margin
+
+        elif operation == 'min_time':
+            context = GetContext()
+            min_time = Get(contex

@@ -119,3 +119,7 @@ def Main(operation, args):
                 return False
 
         elif operation == 'time_margin':
+            context = GetContext()
+            time_margin = Get(context, 'time_margin')
+
+            retu

@@ -104,4 +104,10 @@ def Main(operation, args):
 
         elif operation == 'oracle':
             context = GetContext()
-            o = Get(context, 
+            o = Get(context, 'oracle')
+
+            return o
+
+        elif operation == 'updateOracle':
+            if len(args) == 1:
+        

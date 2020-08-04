@@ -110,4 +110,7 @@ def Main(operation, args):
 
         elif operation == 'updateOracle':
             if len(args) == 1:
-        
+                new_oracle = args[0]
+                o = UpdateOracle(new_oracle)
+                Log("Oracle updated")
+                re

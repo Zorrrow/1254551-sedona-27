@@ -96,4 +96,10 @@ def Main(operation, args):
             if len(args) == 1:
                 new_name = args[0]
                 n = UpdateName(new_name)
-                Log("
+                Log("Name updated")
+                return n
+
+            else:
+                return False
+
+        elif o

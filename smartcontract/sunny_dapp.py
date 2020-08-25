@@ -126,4 +126,9 @@ def Main(operation, args):
 
         elif operation == 'min_time':
             context = GetContext()
-            min_time = Get(contex
+            min_time = Get(context, 'min_time')
+
+            return min_time
+
+        elif operation == 'max_time':
+            context =

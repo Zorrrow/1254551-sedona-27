@@ -131,4 +131,9 @@ def Main(operation, args):
             return min_time
 
         elif operation == 'max_time':
-            context =
+            context = GetContext()
+            max_time = Get(context, 'max_time')
+
+            return max_time
+
+        elif operation 

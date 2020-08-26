@@ -136,4 +136,7 @@ def Main(operation, args):
 
             return max_time
 
-        elif operation 
+        elif operation == 'updateTimeLimits':
+            if len(args) == 2:
+                time_variable = args[0]
+                value = args[1]

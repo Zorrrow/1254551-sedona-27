@@ -140,3 +140,6 @@ def Main(operation, args):
             if len(args) == 2:
                 time_variable = args[0]
                 value = args[1]
+                t = UpdateTimeLimits(time_variable, value)
+                Log("Time limits updated")
+ 

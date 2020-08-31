@@ -142,4 +142,9 @@ def Main(operation, args):
                 value = args[1]
                 t = UpdateTimeLimits(time_variable, value)
                 Log("Time limits updated")
- 
+                return t
+
+            else:
+                return False
+
+        elif o

@@ -147,4 +147,7 @@ def Main(operation, args):
             else:
                 return False
 
-        elif o
+        elif operation == 'agreement':
+            if len(args) == 10:
+                agreement_key = args[0]
+        

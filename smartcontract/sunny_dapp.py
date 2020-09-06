@@ -150,4 +150,7 @@ def Main(operation, args):
         elif operation == 'agreement':
             if len(args) == 10:
                 agreement_key = args[0]
-        
+                customer = args[1]
+                insurer = args[2]
+                location = args[3]
+    

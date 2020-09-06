@@ -153,4 +153,6 @@ def Main(operation, args):
                 customer = args[1]
                 insurer = args[2]
                 location = args[3]
-    
+                timestamp = args[4]
+                utc_offset = args[5]
+                amount = 

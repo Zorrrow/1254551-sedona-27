@@ -155,4 +155,7 @@ def Main(operation, args):
                 location = args[3]
                 timestamp = args[4]
                 utc_offset = args[5]
-                amount = 
+                amount = args[6]
+                premium = args[7]
+                dapp_name = args[8]
+                fee = args[9]

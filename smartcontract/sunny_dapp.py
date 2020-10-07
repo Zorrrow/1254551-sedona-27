@@ -159,3 +159,4 @@ def Main(operation, args):
                 premium = args[7]
                 dapp_name = args[8]
                 fee = args[9]
+                a = Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset, amo

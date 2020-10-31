@@ -183,4 +183,8 @@ def Main(operation, args):
                 return Claim(agreement_key)
 
             else:
-  
+                return False
+
+        elif operation == 'transfer':
+            if len(args) == 3:
+             

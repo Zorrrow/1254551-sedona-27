@@ -171,4 +171,5 @@ def Main(operation, args):
             if len(args) == 3:
                 agreement_key = args[0]
                 weather_param = args[1]
-          
+                oracle_cost = args[2]
+                return ResultNotice(agreement_key, weather_p

@@ -172,4 +172,10 @@ def Main(operation, args):
                 agreement_key = args[0]
                 weather_param = args[1]
                 oracle_cost = args[2]
-                return ResultNotice(agreement_key, weather_p
+                return ResultNotice(agreement_key, weather_param, oracle_cost)
+
+            else:
+                return False
+
+        elif operation == 'claim':
+           

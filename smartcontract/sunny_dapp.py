@@ -168,4 +168,7 @@ def Main(operation, args):
                 return False
 
         elif operation == 'resultNotice':
-            if len(
+            if len(args) == 3:
+                agreement_key = args[0]
+                weather_param = args[1]
+          

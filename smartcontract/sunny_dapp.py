@@ -178,4 +178,9 @@ def Main(operation, args):
                 return False
 
         elif operation == 'claim':
-           
+            if len(args) == 1:
+                agreement_key = args[0]
+                return Claim(agreement_key)
+
+            else:
+  

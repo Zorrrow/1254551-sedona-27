@@ -162,4 +162,10 @@ def Main(operation, args):
                 a = Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset, amount, premium, dapp_name, fee)
 
                 Log("Agreement added!")
-                
+                return a
+
+            else:
+                return False
+
+        elif operation == 'resultNotice':
+            if len(

@@ -187,4 +187,7 @@ def Main(operation, args):
 
         elif operation == 'transfer':
             if len(args) == 3:
-             
+                t_from = args[0]
+                t_to = args[1]
+                t_amount = args[2]
+                ret

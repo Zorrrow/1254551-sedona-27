@@ -190,4 +190,9 @@ def Main(operation, args):
                 t_from = args[0]
                 t_to = args[1]
                 t_amount = args[2]
-                ret
+                return DoTransfer(t_from, t_to, t_amount)
+
+            else:
+                return False
+
+      

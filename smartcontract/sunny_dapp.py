@@ -203,3 +203,6 @@ def Main(operation, args):
             else:
                 return False
 
+        elif operation == 'deleteAgreement':
+            if len(args) == 1:
+                ag

@@ -197,4 +197,9 @@ def Main(operation, args):
 
         elif operation == 'refundAll':
             if len(args) == 1:
-                agreement_key = args
+                agreement_key = args[0]
+                return RefundAll(agreement_key)
+
+            else:
+                return False
+

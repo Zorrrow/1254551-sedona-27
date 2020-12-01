@@ -225,4 +225,8 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     :param dapp_name: name of the dapp
     :type dapp_name: str
 
-    :param oracle: 
+    :param oracle: oracle that is used
+    :type oracle: bytearray
+
+    :param time_margin: time margin in seconds
+  

@@ -205,4 +205,8 @@ def Main(operation, args):
 
         elif operation == 'deleteAgreement':
             if len(args) == 1:
-                ag
+                agreement_key = args[0]
+                return DeleteAgreement(agreement_key)
+
+            else:
+                return False

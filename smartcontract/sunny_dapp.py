@@ -218,4 +218,6 @@ def Main(operation, args):
     return False
 
 
-def Dep
+def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
+    """
+    Method for the dApp owner initiate settin

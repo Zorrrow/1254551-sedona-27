@@ -220,4 +220,9 @@ def Main(operation, args):
 
 def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     """
-    Method for the dApp owner initiate settin
+    Method for the dApp owner initiate settings in storage
+
+    :param dapp_name: name of the dapp
+    :type dapp_name: str
+
+    :param oracle: 

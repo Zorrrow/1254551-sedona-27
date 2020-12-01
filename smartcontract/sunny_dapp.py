@@ -232,4 +232,9 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     :type time_margin: int
 
     :param min_time: minimum time until the datetime of the event in seconds
-    :type min_time:
+    :type min_time: int
+
+    :param max_time: max_time until the datetime of the event in seconds
+    :type max_time: int
+
+    :

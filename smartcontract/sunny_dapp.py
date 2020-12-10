@@ -237,4 +237,9 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     :param max_time: max_time until the datetime of the event in seconds
     :type max_time: int
 
-    :
+    :return: whether the update succeeded
+    :rtype: bool
+    """
+
+    if not CheckWitness(OWNER):
+        Log("Mu

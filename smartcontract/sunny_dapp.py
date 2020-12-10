@@ -242,4 +242,8 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     """
 
     if not CheckWitness(OWNER):
-        Log("Mu
+        Log("Must be owner to deploy dApp")
+        return False
+
+    context = GetContext()
+    Put(context, 'dapp_nam

@@ -250,4 +250,9 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     Put(context, 'oracle', oracle)
 
     if time_margin < 0:
-        Log("time_margin must be pos
+        Log("time_margin must be positive")
+        return False
+
+    Put(context, 'time_margin', time_margin)
+
+    if min_time < 3600 + ti

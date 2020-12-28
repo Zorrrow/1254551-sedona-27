@@ -246,4 +246,8 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
         return False
 
     context = GetContext()
-    Put(context, 'dapp_nam
+    Put(context, 'dapp_name', dapp_name)
+    Put(context, 'oracle', oracle)
+
+    if time_margin < 0:
+        Log("time_margin must be pos

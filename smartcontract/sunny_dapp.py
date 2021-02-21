@@ -270,4 +270,8 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
     return True
 
 
-d
+def UpdateName(new_name):
+    """
+    Method for the dApp owner to update the dapp name
+
+    :p

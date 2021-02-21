@@ -259,4 +259,7 @@ def Deploy(dapp_name, oracle, time_margin, min_time, max_time):
         Log("min_time must be greater than 3600 + time_margin")
         return False
 
-    
+    Put(context, 'min_time', min_time)
+
+    if max_time <= (min_time + time_margin):
+        Log("max_time must be greather than min_

@@ -274,4 +274,8 @@ def UpdateName(new_name):
     """
     Method for the dApp owner to update the dapp name
 
-    :p
+    :param new_name: new name of the dapp
+    :type new_name: str
+
+    :return: whether the update succeeded
+ 

@@ -283,4 +283,12 @@ def UpdateName(new_name):
 
     if not CheckWitness(OWNER):
         Log("Must be owner to update name")
-     
+        return False
+
+    context = GetContext()
+    Put(context, 'dapp_name', new_name)
+
+    return True
+
+
+def U

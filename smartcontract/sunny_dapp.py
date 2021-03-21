@@ -278,4 +278,9 @@ def UpdateName(new_name):
     :type new_name: str
 
     :return: whether the update succeeded
- 
+    :rtype: bool
+    """
+
+    if not CheckWitness(OWNER):
+        Log("Must be owner to update name")
+     

@@ -291,4 +291,6 @@ def UpdateName(new_name):
     return True
 
 
-def U
+def UpdateOracle(new_oracle):
+    """
+    Method for the dApp owner to update oracle that is used to sign

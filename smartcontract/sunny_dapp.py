@@ -298,4 +298,9 @@ def UpdateOracle(new_oracle):
     :param new_name: new oracle for the dapp
     :type new_name: bytearray
 
-    :return: whether th
+    :return: whether the update succeeded
+    :rtype: bool
+    """
+
+    if not CheckWitness(OWNER):
+        Log("Must be owner to u

@@ -293,4 +293,9 @@ def UpdateName(new_name):
 
 def UpdateOracle(new_oracle):
     """
-    Method for the dApp owner to update oracle that is used to sign
+    Method for the dApp owner to update oracle that is used to signal events
+
+    :param new_name: new oracle for the dapp
+    :type new_name: bytearray
+
+    :return: whether th

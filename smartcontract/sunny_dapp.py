@@ -303,4 +303,10 @@ def UpdateOracle(new_oracle):
     """
 
     if not CheckWitness(OWNER):
-        Log("Must be owner to u
+        Log("Must be owner to update oracle")
+        return False
+
+    context = GetContext()
+    Put(context, 'oracle', new_oracle)
+
+ 

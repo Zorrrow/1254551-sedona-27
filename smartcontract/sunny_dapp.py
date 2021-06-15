@@ -309,4 +309,9 @@ def UpdateOracle(new_oracle):
     context = GetContext()
     Put(context, 'oracle', new_oracle)
 
- 
+    return True
+
+
+def UpdateTimeLimits(time_variable, value):
+    """
+    Method for the dApp owner to upda

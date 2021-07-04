@@ -314,4 +314,7 @@ def UpdateOracle(new_oracle):
 
 def UpdateTimeLimits(time_variable, value):
     """
-    Method for the dApp owner to upda
+    Method for the dApp owner to update the time limits
+
+    :param time_variable: the name of the time variable to change
+    :typ

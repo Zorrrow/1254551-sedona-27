@@ -317,4 +317,7 @@ def UpdateTimeLimits(time_variable, value):
     Method for the dApp owner to update the time limits
 
     :param time_variable: the name of the time variable to change
-    :typ
+    :type time_variable: str
+
+    :param value: the value for the time variable to change in seconds
+    :ty

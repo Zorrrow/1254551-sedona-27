@@ -320,4 +320,10 @@ def UpdateTimeLimits(time_variable, value):
     :type time_variable: str
 
     :param value: the value for the time variable to change in seconds
-    :ty
+    :type value: int
+
+    :return: whether the update succeeded
+    :rtype: bool
+    """
+
+    if not CheckWitness(O

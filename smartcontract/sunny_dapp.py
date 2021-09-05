@@ -331,4 +331,9 @@ def UpdateTimeLimits(time_variable, value):
         return False
 
     if value < 0:
-  
+        Log("Time limit value must be positive")
+        return False
+
+    context = GetContext()
+
+    if 

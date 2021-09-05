@@ -326,4 +326,9 @@ def UpdateTimeLimits(time_variable, value):
     :rtype: bool
     """
 
-    if not CheckWitness(O
+    if not CheckWitness(OWNER):
+        Log("Must be owner to update time limits")
+        return False
+
+    if value < 0:
+  

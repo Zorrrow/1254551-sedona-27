@@ -336,4 +336,8 @@ def UpdateTimeLimits(time_variable, value):
 
     context = GetContext()
 
-    if 
+    if time_variable == 'time_margin':
+        time_margin = value
+        Put(context, 'time_margin', time_margin)
+
+    elif

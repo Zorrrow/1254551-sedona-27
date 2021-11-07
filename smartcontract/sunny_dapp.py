@@ -344,4 +344,8 @@ def UpdateTimeLimits(time_variable, value):
         min_time = value
         Put(context, 'min_time', min_time)
 
-    elif t
+    elif time_variable == 'max_time':
+        max_time = value
+        Put(context, 'max_time', max_time)
+
+    e

@@ -348,4 +348,11 @@ def UpdateTimeLimits(time_variable, value):
         max_time = value
         Put(context, 'max_time', max_time)
 
-    e
+    else:
+        Log("Time variable name not existing")
+        return False
+
+    return True
+
+
+def Agreement(agreement_key, c

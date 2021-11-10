@@ -355,4 +355,7 @@ def UpdateTimeLimits(time_variable, value):
     return True
 
 
-def Agreement(agreement_key, c
+def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset, amount, premium, dapp_name, fee):
+
+    """
+    Method to create an agreemen

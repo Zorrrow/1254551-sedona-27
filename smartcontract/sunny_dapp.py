@@ -358,4 +358,9 @@ def UpdateTimeLimits(time_variable, value):
 def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset, amount, premium, dapp_name, fee):
 
     """
-    Method to create an agreemen
+    Method to create an agreement
+
+    :param agreement_key: unique identifier for the agreement
+    :type agreement_key: str
+
+    :param c

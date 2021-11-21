@@ -363,4 +363,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param agreement_key: unique identifier for the agreement
     :type agreement_key: str
 
-    :param c
+    :param customer: customer party of the agreement
+    :type customer: bytearray
+
+    :param insurer: insur

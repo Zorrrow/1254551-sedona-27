@@ -369,4 +369,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param insurer: insurer party of the agreement
     :type insurer: bytearray
 
-    :param location: location were the event occurs,
+    :param location: location were the event occurs, typically a city
+    :type location: str
+
+    :param timestamp: timezone naive datetime of

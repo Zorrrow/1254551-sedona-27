@@ -366,4 +366,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param customer: customer party of the agreement
     :type customer: bytearray
 
-    :param insurer: insur
+    :param insurer: insurer party of the agreement
+    :type insurer: bytearray
+
+    :param location: location were the event occurs,

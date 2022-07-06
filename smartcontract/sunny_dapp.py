@@ -375,4 +375,10 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param timestamp: timezone naive datetime of the day of the event
     :type timestamp: int
 
-    :param utc_offset: positive or negative utc_offset for 
+    :param utc_offset: positive or negative utc_offset for timestamp
+    :type utc_offset: int
+
+    :param amount: the insured amount of NEO
+    :type amount: int
+
+    :p

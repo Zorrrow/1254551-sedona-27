@@ -381,4 +381,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param amount: the insured amount of NEO
     :type amount: int
 
-    :p
+    :param premium: the amount of NEO to be paid as a premium to the insurer
+    :type premium: int
+
+    :pa

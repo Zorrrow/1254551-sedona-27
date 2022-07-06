@@ -372,4 +372,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param location: location were the event occurs, typically a city
     :type location: str
 
-    :param timestamp: timezone naive datetime of
+    :param timestamp: timezone naive datetime of the day of the event
+    :type timestamp: int
+
+    :param utc_offset: positive or negative utc_offset for 

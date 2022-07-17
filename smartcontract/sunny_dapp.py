@@ -387,4 +387,11 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :param dapp_name: the name of the dApp
     :type dapp_name: str
 
-    :param fee: the fee to be char
+    :param fee: the fee to be charged
+    :type fee: int
+
+    :return: whether the agreement was successful
+    :rtype: bool
+    """
+
+ 

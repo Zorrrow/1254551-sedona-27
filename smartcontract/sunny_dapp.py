@@ -394,4 +394,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     :rtype: bool
     """
 
- 
+    if not CheckWitness(OWNER):
+        Log("Must be owner to add an agreement")
+        return False
+
+    # C

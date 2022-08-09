@@ -405,4 +405,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
         return False
 
     # Get timestamp of current block
-    currentHeight = GetHe
+    currentHeight = GetHeight()
+    currentBlock = GetHeader(currentHeight)
+    current_time = currentBlock.Timestamp
+
+ 

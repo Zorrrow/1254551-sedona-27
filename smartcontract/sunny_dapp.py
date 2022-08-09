@@ -401,4 +401,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     # Check if the contract is deployed
     context = GetContext()
     if not Get(context, dapp_name):
-        Log("Must first deploy
+        Log("Must first deploy contract with the deploy operation")
+        return False
+
+    # Get timestamp of current block
+    currentHeight = GetHe

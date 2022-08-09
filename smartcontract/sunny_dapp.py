@@ -398,4 +398,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
         Log("Must be owner to add an agreement")
         return False
 
-    # C
+    # Check if the contract is deployed
+    context = GetContext()
+    if not Get(context, dapp_name):
+        Log("Must first deploy

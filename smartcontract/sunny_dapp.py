@@ -409,4 +409,6 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     currentBlock = GetHeader(currentHeight)
     current_time = currentBlock.Timestamp
 
- 
+    # Compute timezone adjusted time
+    timezone_timestamp = timestamp + (utc_offset * 3600)
+    timezone_current_time = cur

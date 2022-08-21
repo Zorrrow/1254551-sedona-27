@@ -421,4 +421,5 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     max_time = Get(context, 'max_time')
 
     # Check if timestamp is not out of boundaries
-    if t
+    if timezone_timestamp < (timezone_current_time + min_time - time_margin):
+        Log("Datetime must be > 1 day a

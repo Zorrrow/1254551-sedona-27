@@ -417,4 +417,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     dapp_name = Get(context, 'dapp_name')
     oracle = Get(context, 'oracle')
     time_margin = Get(context, 'time_margin')
-    min_time = Get(context, 'min_tim
+    min_time = Get(context, 'min_time')
+    max_time = Get(context, 'max_time')
+
+    # Check if timestamp is not out of boundaries
+    if t

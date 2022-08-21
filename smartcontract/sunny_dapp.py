@@ -415,4 +415,6 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     # Get contract settings
     dapp_name = Get(context, 'dapp_name')
-    orac
+    oracle = Get(context, 'oracle')
+    time_margin = Get(context, 'time_margin')
+    min_time = Get(context, 'min_tim

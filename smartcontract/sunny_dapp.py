@@ -422,4 +422,7 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     # Check if timestamp is not out of boundaries
     if timezone_timestamp < (timezone_current_time + min_time - time_margin):
-        Log("Datetime must be > 1 day a
+        Log("Datetime must be > 1 day ahead")
+        return False
+
+    elif timezone_timestamp > (timezone_current_time + max_time + 

@@ -425,4 +425,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
         Log("Datetime must be > 1 day ahead")
         return False
 
-    elif timezone_timestamp > (timezone_current_time + max_time + 
+    elif timezone_timestamp > (timezone_current_time + max_time + time_margin):
+        Log("Datetime must be < 30 days ahead")
+        return False
+
+    # Check if amo

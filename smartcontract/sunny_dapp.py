@@ -431,4 +431,9 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     # Check if amount and premium are not zero or below
     if amount <= 0:
-        Log("Insured amount is zero or negative
+        Log("Insured amount is zero or negative")
+        return False
+
+    if premium <= 0:
+        Log("Premium is zero or negative")
+        return

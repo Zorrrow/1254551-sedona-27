@@ -436,4 +436,10 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     if premium <= 0:
         Log("Premium is zero or negative")
-        return
+        return False
+
+    status = 'initialized'
+
+    # Set place holder variables
+    weather_param = 0
+    oracl

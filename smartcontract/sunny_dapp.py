@@ -442,4 +442,6 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     # Set place holder variables
     weather_param = 0
-    oracl
+    oracle_cost = 0
+
+    agreement_data = [customer, insurer, location, timestamp, utc_offset, amount, premium, fee,

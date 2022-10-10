@@ -444,4 +444,6 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     weather_param = 0
     oracle_cost = 0
 
-    agreement_data = [customer, insurer, location, timestamp, utc_offset, amount, premium, fee,
+    agreement_data = [customer, insurer, location, timestamp, utc_offset, amount, premium, fee, oracle, time_margin, min_time, max_time, status, weather_param, oracle_cost]
+
+    Put(context, agreement_ke

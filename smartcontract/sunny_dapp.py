@@ -446,4 +446,11 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
 
     agreement_data = [customer, insurer, location, timestamp, utc_offset, amount, premium, fee, oracle, time_margin, min_time, max_time, status, weather_param, oracle_cost]
 
-    Put(context, agreement_ke
+    Put(context, agreement_key, agreement_data)
+
+    DispatchAgreementEvent(agreement_key)
+
+    return True
+
+
+def ResultN

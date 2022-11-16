@@ -453,4 +453,8 @@ def Agreement(agreement_key, customer, insurer, location, timestamp, utc_offset,
     return True
 
 
-def ResultN
+def ResultNotice(agreement_key, weather_param, oracle_cost):
+    """
+    Method to signal resulte by oracle
+
+    :param ag

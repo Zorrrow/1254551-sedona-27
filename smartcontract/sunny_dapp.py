@@ -460,4 +460,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     :param agreement_key: the key of the agreement
     :type agreement_key: bytearray
 
-    :param weather_param: we
+    :param weather_param: weather parameter that the contract is depending on
+    :type weather_param: int
+
+    :param oracle_cost: c

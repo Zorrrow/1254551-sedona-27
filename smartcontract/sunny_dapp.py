@@ -457,4 +457,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     """
     Method to signal resulte by oracle
 
-    :param ag
+    :param agreement_key: the key of the agreement
+    :type agreement_key: bytearray
+
+    :param weather_param: we

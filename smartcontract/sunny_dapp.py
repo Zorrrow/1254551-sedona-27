@@ -463,4 +463,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     :param weather_param: weather parameter that the contract is depending on
     :type weather_param: int
 
-    :param oracle_cost: c
+    :param oracle_cost: costs made by the oracle to do this assignment
+    :type oracle_cost: int
+
+    :return: whether a pay out to the customer is 

@@ -471,4 +471,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     """
 
     # Check if the method is triggered by the oracle for this agreement
-   
+    context = GetContext()
+    agreement_data = Get(context, agreement_key)
+    oracle = agreement_data[8]
+

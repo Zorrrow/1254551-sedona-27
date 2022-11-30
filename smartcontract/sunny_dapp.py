@@ -466,4 +466,9 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     :param oracle_cost: costs made by the oracle to do this assignment
     :type oracle_cost: int
 
-    :return: whether a pay out to the customer is 
+    :return: whether a pay out to the customer is done
+    :rtype: bool
+    """
+
+    # Check if the method is triggered by the oracle for this agreement
+   

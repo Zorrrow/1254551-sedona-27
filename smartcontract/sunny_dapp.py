@@ -477,4 +477,8 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
 
     if not CheckWitness(oracle):
         Log("Must be oracle to notice results")
-        return Fal
+        return False
+
+    timestamp = agreement_data[3]
+    utc_offset = agreement_data[4]
+    status = agreement_da

@@ -475,3 +475,6 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     agreement_data = Get(context, agreement_key)
     oracle = agreement_data[8]
 
+    if not CheckWitness(oracle):
+        Log("Must be oracle to notice results")
+        return Fal

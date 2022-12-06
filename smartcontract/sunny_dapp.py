@@ -481,4 +481,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
 
     timestamp = agreement_data[3]
     utc_offset = agreement_data[4]
-    status = agreement_da
+    status = agreement_data[12]
+
+    if not status == 'initialized':
+        Log("Contract has incorrect status to do a r

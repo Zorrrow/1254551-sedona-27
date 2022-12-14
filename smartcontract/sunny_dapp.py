@@ -484,4 +484,9 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     status = agreement_data[12]
 
     if not status == 'initialized':
-        Log("Contract has incorrect status to do a r
+        Log("Contract has incorrect status to do a result notice")
+        return False
+
+    agreement_data[12] = 'result-noticed'
+    agreement_data[13] = weather_param
+   

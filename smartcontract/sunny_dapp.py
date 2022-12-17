@@ -493,4 +493,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
 
     # Get timestamp of current block
     currentHeight = GetHeight()
-   
+    currentBlock = GetHeader(currentHeight)
+    current_time = currentBlock.Timestamp
+
+    Put(context,

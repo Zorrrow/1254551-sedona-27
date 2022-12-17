@@ -489,4 +489,8 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
 
     agreement_data[12] = 'result-noticed'
     agreement_data[13] = weather_param
+    agreement_data[14] = oracle_cost
+
+    # Get timestamp of current block
+    currentHeight = GetHeight()
    

@@ -496,4 +496,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     currentBlock = GetHeader(currentHeight)
     current_time = currentBlock.Timestamp
 
-    Put(context,
+    Put(context, agreement_key, agreement_data)
+
+    timezone_timestamp = timestamp + (3600 * utc_offset)
+    timezone_current_time = curr

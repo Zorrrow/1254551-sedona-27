@@ -502,4 +502,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     timezone_current_time = current_time + (3600 * utc_offset)
 
     if timezone_current_time < timezone_timestamp:
-        Log("Datetim
+        Log("Datetime of result notice is lower than agreed datetime")
+        return False
+    else:
+        DispatchResultNot

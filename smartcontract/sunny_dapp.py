@@ -499,4 +499,7 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
     Put(context, agreement_key, agreement_data)
 
     timezone_timestamp = timestamp + (3600 * utc_offset)
-    timezone_current_time = curr
+    timezone_current_time = current_time + (3600 * utc_offset)
+
+    if timezone_current_time < timezone_timestamp:
+        Log("Datetim

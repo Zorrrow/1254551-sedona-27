@@ -505,4 +505,8 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
         Log("Datetime of result notice is lower than agreed datetime")
         return False
     else:
-        DispatchResultNot
+        DispatchResultNoticeEvent(agreement_key, weather_param, oracle_cost)
+        return True
+
+
+def Claim(agreement_key):

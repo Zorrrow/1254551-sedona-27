@@ -514,4 +514,8 @@ def Claim(agreement_key):
     Method to handle the pay out
 
     :param agreement_key: the key of the agreement
-   
+    :type agreement_key: bytearray
+
+    :return: whether a pay out to the customer is done
+    :rtype: bool
+    """

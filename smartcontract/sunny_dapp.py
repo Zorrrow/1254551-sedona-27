@@ -510,3 +510,8 @@ def ResultNotice(agreement_key, weather_param, oracle_cost):
 
 
 def Claim(agreement_key):
+    """
+    Method to handle the pay out
+
+    :param agreement_key: the key of the agreement
+   

@@ -522,4 +522,8 @@ def Claim(agreement_key):
 
     context = GetContext()
     agreement_data = Get(context, agreement_key)
-    customer = agreement
+    customer = agreement_data[0]
+    insurer = agreement_data[1]
+    oracle = agreement_data[8]
+    status = agreement_data[12]
+    amount = 

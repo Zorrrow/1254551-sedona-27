@@ -526,4 +526,7 @@ def Claim(agreement_key):
     insurer = agreement_data[1]
     oracle = agreement_data[8]
     status = agreement_data[12]
-    amount = 
+    amount = agreement_data[5]
+    premium = agreement_data[6]
+    fee = agreement_data[7]
+    weather_param = agreement_da

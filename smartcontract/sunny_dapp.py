@@ -529,4 +529,7 @@ def Claim(agreement_key):
     amount = agreement_data[5]
     premium = agreement_data[6]
     fee = agreement_data[7]
-    weather_param = agreement_da
+    weather_param = agreement_data[13]
+    oracle_cost = agreement_data[14]
+
+    # Check if the pay out is triggered by the owner, c

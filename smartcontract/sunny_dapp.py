@@ -532,4 +532,10 @@ def Claim(agreement_key):
     weather_param = agreement_data[13]
     oracle_cost = agreement_data[14]
 
-    # Check if the pay out is triggered by the owner, c
+    # Check if the pay out is triggered by the owner, customer, or insurer.
+    valid_witness = False
+
+    if CheckWitness(OWNER):
+        valid_witness = True
+
+    elif

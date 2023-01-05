@@ -542,4 +542,8 @@ def Claim(agreement_key):
         valid_witness = True
 
     elif CheckWitness(insurer):
-        valid
+        valid_witness = True
+
+    if not valid_witness:
+        Log("Must be owner, customer or insurer to claim")
+        r

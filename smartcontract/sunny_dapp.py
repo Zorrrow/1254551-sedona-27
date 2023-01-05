@@ -538,4 +538,8 @@ def Claim(agreement_key):
     if CheckWitness(OWNER):
         valid_witness = True
 
-    elif
+    elif CheckWitness(customer):
+        valid_witness = True
+
+    elif CheckWitness(insurer):
+        valid

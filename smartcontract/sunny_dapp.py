@@ -546,4 +546,7 @@ def Claim(agreement_key):
 
     if not valid_witness:
         Log("Must be owner, customer or insurer to claim")
-        r
+        return False
+
+    # Check whether this contract has the right status to do a claim
+    if status ==

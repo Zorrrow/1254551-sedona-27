@@ -549,4 +549,6 @@ def Claim(agreement_key):
         return False
 
     # Check whether this contract has the right status to do a claim
-    if status ==
+    if status == 'initialized':
+        Log("Status must be result-noticed to be able to do a claim")
+        return Fals

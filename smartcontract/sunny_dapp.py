@@ -557,4 +557,8 @@ def Claim(agreement_key):
         Log("Contract pay out is already claimed")
         return False
 
-    e
+    elif status == 'refunded':
+        Log("Contract is already refunded")
+        return False
+
+    net_premium = premium - fe

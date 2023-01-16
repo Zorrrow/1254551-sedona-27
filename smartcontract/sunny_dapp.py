@@ -561,4 +561,8 @@ def Claim(agreement_key):
         Log("Contract is already refunded")
         return False
 
-    net_premium = premium - fe
+    net_premium = premium - fee
+
+    if weather_param >= THRESHOLD:
+        Notify("Day was sunny, no pay out to customer")
+        DoTransfe

@@ -567,4 +567,7 @@ def Claim(agreement_key):
         Notify("Day was sunny, no pay out to customer")
         DoTransfer(OWNER, insurer, net_premium)
         DispatchTransferEvent(OWNER, insurer, net_premium)
-        return 
+        return False
+
+    elif weather_param < THRESHOLD:
+        Notify("Day was not sunny, pay out insured amount to custo

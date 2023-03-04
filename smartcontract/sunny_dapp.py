@@ -572,4 +572,6 @@ def Claim(agreement_key):
     elif weather_param < THRESHOLD:
         Notify("Day was not sunny, pay out insured amount to customer")
         DoTransfer(OWNER, insurer, net_premium)
-        DispatchTransferEvent(OWNER, insurer, net
+        DispatchTransferEvent(OWNER, insurer, net_premium)
+        DoTransfer(OWNER, customer, amount)
+        DispatchTransferEvent(OWNER, customer, amou

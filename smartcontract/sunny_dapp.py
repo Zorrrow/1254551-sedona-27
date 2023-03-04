@@ -574,4 +574,8 @@ def Claim(agreement_key):
         DoTransfer(OWNER, insurer, net_premium)
         DispatchTransferEvent(OWNER, insurer, net_premium)
         DoTransfer(OWNER, customer, amount)
-        DispatchTransferEvent(OWNER, customer, amou
+        DispatchTransferEvent(OWNER, customer, amount)
+
+    DoTransfer(OWNER, oracle, oracle_cost)
+    DispatchTransferEvent(OWNER, oracle, oracle_cost)
+

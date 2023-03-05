@@ -579,3 +579,6 @@ def Claim(agreement_key):
     DoTransfer(OWNER, oracle, oracle_cost)
     DispatchTransferEvent(OWNER, oracle, oracle_cost)
 
+    agreement_data[12] = 'claimed'
+    Put(context, agreement_key, agreement_data)
+    DispatchClaimEvent(a

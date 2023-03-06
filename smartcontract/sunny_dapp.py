@@ -588,4 +588,7 @@ def Claim(agreement_key):
 
 def DoTransfer(sender, receiver, amount):
     """
-    Me
+    Method to transfer tokens from one account to another
+
+    :param sender: the address to transfer from
+    :type sender:

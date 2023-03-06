@@ -581,4 +581,11 @@ def Claim(agreement_key):
 
     agreement_data[12] = 'claimed'
     Put(context, agreement_key, agreement_data)
-    DispatchClaimEvent(a
+    DispatchClaimEvent(agreement_key)
+
+    return True
+
+
+def DoTransfer(sender, receiver, amount):
+    """
+    Me

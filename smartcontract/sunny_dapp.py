@@ -591,4 +591,9 @@ def DoTransfer(sender, receiver, amount):
     Method to transfer tokens from one account to another
 
     :param sender: the address to transfer from
-    :type sender:
+    :type sender: bytearray
+
+    :param receiver: the address to transfer to
+    :type receiver: bytearray
+
+    :param amount: the am

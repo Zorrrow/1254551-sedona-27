@@ -596,4 +596,8 @@ def DoTransfer(sender, receiver, amount):
     :param receiver: the address to transfer to
     :type receiver: bytearray
 
-    :param amount: the am
+    :param amount: the amount of tokens to transfer
+    :type amount: int
+
+    :return: whether the transfer was successful
+    :rtyp

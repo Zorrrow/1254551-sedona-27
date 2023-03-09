@@ -600,4 +600,10 @@ def DoTransfer(sender, receiver, amount):
     :type amount: int
 
     :return: whether the transfer was successful
-    :rtyp
+    :rtype: bool
+
+    """
+
+    if amount <= 0:
+        Log("Cannot transfer negative amount")
+   

@@ -606,4 +606,9 @@ def DoTransfer(sender, receiver, amount):
 
     if amount <= 0:
         Log("Cannot transfer negative amount")
-   
+        return False
+
+    from_is_sender = CheckWitness(sender)
+
+    if not from_is_sender:
+        Lo

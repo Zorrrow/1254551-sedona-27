@@ -611,4 +611,8 @@ def DoTransfer(sender, receiver, amount):
     from_is_sender = CheckWitness(sender)
 
     if not from_is_sender:
-        Lo
+        Log("Not owner of funds to be transferred")
+        return False
+
+    if sender == receiver:
+     

@@ -615,4 +615,8 @@ def DoTransfer(sender, receiver, amount):
         return False
 
     if sender == receiver:
-     
+        Log("Sending funds to self")
+        return True
+
+    context = GetContext()
+    from_val =

@@ -619,4 +619,8 @@ def DoTransfer(sender, receiver, amount):
         return True
 
     context = GetContext()
-    from_val =
+    from_val = Get(context, sender)
+
+    if from_val < amount:
+        Log("Insufficient funds to transfer")
+        retur

@@ -629,4 +629,9 @@ def DoTransfer(sender, receiver, amount):
         Delete(context, sender)
 
     else:
-        difference = from_val -
+        difference = from_val - amount
+        Put(context, sender, difference)
+
+    to_value = Get(context, receiver)
+
+    to_total = to_val

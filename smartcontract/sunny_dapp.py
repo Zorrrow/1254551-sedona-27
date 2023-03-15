@@ -623,4 +623,10 @@ def DoTransfer(sender, receiver, amount):
 
     if from_val < amount:
         Log("Insufficient funds to transfer")
-        retur
+        return False
+
+    if from_val == amount:
+        Delete(context, sender)
+
+    else:
+        difference = from_val -

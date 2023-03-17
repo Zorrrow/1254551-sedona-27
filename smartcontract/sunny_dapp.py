@@ -634,4 +634,11 @@ def DoTransfer(sender, receiver, amount):
 
     to_value = Get(context, receiver)
 
-    to_total = to_val
+    to_total = to_value + amount
+
+    Put(context, receiver, to_total)
+    DispatchTransferEvent(sender, receiver, amount)
+
+    return True
+
+

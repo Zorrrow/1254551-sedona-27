@@ -642,3 +642,6 @@ def DoTransfer(sender, receiver, amount):
     return True
 
 
+def RefundAll(agreement_key):
+    """
+    Method refund payments in case a total eclipse or EMP caused 

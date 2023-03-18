@@ -644,4 +644,9 @@ def DoTransfer(sender, receiver, amount):
 
 def RefundAll(agreement_key):
     """
-    Method refund payments in case a total eclipse or EMP caused 
+    Method refund payments in case a total eclipse or EMP caused oracle failure
+
+    :param agreement_key: agreement_key
+    :type agreement_key: bytearray
+
+    :return: wh

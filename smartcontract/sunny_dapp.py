@@ -649,4 +649,9 @@ def RefundAll(agreement_key):
     :param agreement_key: agreement_key
     :type agreement_key: bytearray
 
-    :return: wh
+    :return: whether the refund was successful
+    :rtype: bool
+
+    """
+
+    if not CheckWitness(OWNER):

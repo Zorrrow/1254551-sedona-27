@@ -655,3 +655,5 @@ def RefundAll(agreement_key):
     """
 
     if not CheckWitness(OWNER):
+        Log("Must be owner to do a refund to all")
+        return Fals

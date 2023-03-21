@@ -661,4 +661,6 @@ def RefundAll(agreement_key):
     context = GetContext()
     agreement_data = Get(context, agreement_key)
     status = agreement_data[12]
-    c
+    customer = agreement_data[0]
+    insurer = agreement_data[1]
+    status = agreeme

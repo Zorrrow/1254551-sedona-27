@@ -656,4 +656,9 @@ def RefundAll(agreement_key):
 
     if not CheckWitness(OWNER):
         Log("Must be owner to do a refund to all")
-        return Fals
+        return False
+
+    context = GetContext()
+    agreement_data = Get(context, agreement_key)
+    status = agreement_data[12]
+    c

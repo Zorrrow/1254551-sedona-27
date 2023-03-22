@@ -663,4 +663,7 @@ def RefundAll(agreement_key):
     status = agreement_data[12]
     customer = agreement_data[0]
     insurer = agreement_data[1]
-    status = agreeme
+    status = agreement_data[12]
+    amount = agreement_data[5]
+    premium = agreement_data[6]
+    fee = agreement_data[7]

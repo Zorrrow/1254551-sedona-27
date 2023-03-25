@@ -667,3 +667,9 @@ def RefundAll(agreement_key):
     amount = agreement_data[5]
     premium = agreement_data[6]
     fee = agreement_data[7]
+
+    if status == 'claimed':
+        Log("contract pay out has already been claimed")
+        return False
+
+    e

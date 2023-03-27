@@ -672,4 +672,9 @@ def RefundAll(agreement_key):
         Log("contract pay out has already been claimed")
         return False
 
-    e
+    elif status == 'refunded':
+        Log("A RefundAll already took place")
+        return False
+
+    # Perform refund
+   

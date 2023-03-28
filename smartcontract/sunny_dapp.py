@@ -681,4 +681,8 @@ def RefundAll(agreement_key):
     DoTransfer(OWNER, insurer, net_premium)
     DispatchTransferEvent(OWNER, insurer, net_premium)
     DoTransfer(OWNER, customer, amount)
-    DispatchTransferEvent(OWNER, customer, amo
+    DispatchTransferEvent(OWNER, customer, amount)
+
+    agreement_data[12] = 'refunded'
+    Put(context, agreement_key, agreement_data)
+    DispatchRefundAllEve

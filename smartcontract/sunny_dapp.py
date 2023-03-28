@@ -679,4 +679,6 @@ def RefundAll(agreement_key):
     # Perform refund
     net_premium = premium - fee
     DoTransfer(OWNER, insurer, net_premium)
-    DispatchTransferEvent(OWNER
+    DispatchTransferEvent(OWNER, insurer, net_premium)
+    DoTransfer(OWNER, customer, amount)
+    DispatchTransferEvent(OWNER, customer, amo

@@ -692,4 +692,9 @@ def RefundAll(agreement_key):
 
 def DeleteAgreement(agreement_key):
     """
-    Method for the dApp owne
+    Method for the dApp owner to delete claimed or refunded agreements
+
+    :param agreement_key: agreement_key
+    :type agreement_key: str
+
+   

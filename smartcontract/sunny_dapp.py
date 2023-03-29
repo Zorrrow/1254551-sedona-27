@@ -685,4 +685,11 @@ def RefundAll(agreement_key):
 
     agreement_data[12] = 'refunded'
     Put(context, agreement_key, agreement_data)
-    DispatchRefundAllEve
+    DispatchRefundAllEvent(agreement_key)
+
+    return True
+
+
+def DeleteAgreement(agreement_key):
+    """
+    Method for the dApp owne

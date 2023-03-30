@@ -697,4 +697,8 @@ def DeleteAgreement(agreement_key):
     :param agreement_key: agreement_key
     :type agreement_key: str
 
-   
+    :return: whether the deletion succeeded
+    :rtype: bool
+    """
+
+    if not CheckWitness(OWNER):

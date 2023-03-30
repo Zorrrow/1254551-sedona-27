@@ -702,3 +702,8 @@ def DeleteAgreement(agreement_key):
     """
 
     if not CheckWitness(OWNER):
+        Log("Must be owner to delete an agreement")
+        return False
+
+    context = GetContext
+    agreement_data 

@@ -706,4 +706,8 @@ def DeleteAgreement(agreement_key):
         return False
 
     context = GetContext
-    agreement_data 
+    agreement_data = Get(context, agreement_key)
+    status = agreement_data[12]
+
+    if status == 'claimed':
+        Delete(

@@ -710,4 +710,8 @@ def DeleteAgreement(agreement_key):
     status = agreement_data[12]
 
     if status == 'claimed':
-        Delete(
+        Delete(context, agreement_key)
+        DispatchDeleteAgreementEvent(agreement_key)
+
+    elif status == 'refunded':
+       

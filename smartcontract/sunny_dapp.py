@@ -714,4 +714,7 @@ def DeleteAgreement(agreement_key):
         DispatchDeleteAgreementEvent(agreement_key)
 
     elif status == 'refunded':
-       
+        Delete(context, agreement_key)
+        DispatchDeleteAgreementEvent(agreement_key)
+
+    return False
